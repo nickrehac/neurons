@@ -1,0 +1,121 @@
+#version 450
+
+#define MODE_CALCULATE 0
+#define MODE_PRESENT 1
+
+struct Neuron {
+  float charge;
+};
+
+
+
+layout(push_constant) uniform pushConstants {
+  float dTime;
+  uint mode;
+};
+
+
+layout(std140, binding=0) uniform ubo {
+  ivec2 resolution;
+  ivec2 networkDimensions;
+  vec4 zoom;
+};
+
+layout(rgba32f, binding=1) uniform image2D imgOut;
+
+layout(std430, binding=2) buffer neuronBuffer {
+  Neuron neurons[];
+};
+
+layout(std430, binding=3) buffer weightBuffer {
+  float weights[];
+};
+
+layout(local_size_x=32, local_size_y=32, local_size_z=1) in;
+
+const int neighbors[8][2] = {
+  {1,0},
+  {1,-1},
+  {0,-1},
+  {-1,-1},
+  {-1,0},
+  {-1,1},
+  {0,1},
+  {1,1}
+};
+
+const float learnRate = 0.0;
+
+uint weightIndex(uint tier, uint neuron, uint neighbor) {
+  return neuron * 8 + neighbor;
+}
+
+void calculateMode() {
+  if(
+    gl_GlobalInvocationID.x < networkDimensions.x &&
+    gl_GlobalInvocationID.y < networkDimensions.y
+    ) {
+    uint neuronIndex = gl_GlobalInvocationID.y * networkDimensions.x + gl_GlobalInvocationID.x;
+    float initialCharge = neurons[neuronIndex].charge;
+    float retval = 0.0;
+    int numNeighbors = 0;
+    for(int i = 0; i < 8; i++) {
+      int x = neighbors[i][0] + int(gl_GlobalInvocationID.x);
+      int y = neighbors[i][1] + int(gl_GlobalInvocationID.y);
+      if(x < 0 || x >= networkDimensions.x || y < 0 || y >= networkDimensions.y) continue;
+      float oldWeight = weights[weightIndex(0, neuronIndex, i)];
+      float neighborCharge = neurons[x + networkDimensions.x * y].charge;
+      retval += oldWeight * neighborCharge;
+
+      float weightChange = neighborCharge * initialCharge;
+      weights[weightIndex(0, neuronIndex, i)] = oldWeight + weightChange * dTime * learnRate;
+
+      numNeighbors++;
+    }
+    barrier();
+    neurons[neuronIndex].charge = initialCharge + (retval) * dTime;
+    if(neurons[neuronIndex].charge < 0.0) neurons[neuronIndex].charge = 0.0;
+    if(neurons[neuronIndex].charge > 1.0) neurons[neuronIndex].charge = 1.0;
+  }
+}
+
+vec4 falseColor(float x) {
+  vec4 a = vec4(1,0,0,1);
+  vec4 b = vec4(0,1,0,1);
+  if(x <= 0) return a;
+  if(x >= 1) return b;
+  return a*x + b*(1-x);
+}
+
+void presentMode() {
+  if(
+    gl_GlobalInvocationID.x < resolution.x &&
+    gl_GlobalInvocationID.y < resolution.y
+    ) {
+    int x = int((float(gl_GlobalInvocationID.x) + zoom.x)/zoom.z);
+    int y = int((float(gl_GlobalInvocationID.y) + zoom.y)/zoom.z);
+
+    vec4 color;
+
+    if(x >= networkDimensions.x || x < 0 || y >= networkDimensions.y || y < 0) {
+      color = vec4(0,0,0,1);
+    } else {
+      color = falseColor(neurons[x+y*networkDimensions.x].charge);
+    }
+
+
+    imageStore(imgOut, ivec2(gl_GlobalInvocationID.xy), color);
+  }
+}
+
+void main() {
+  switch(mode) {
+    case MODE_CALCULATE:
+      calculateMode();
+      break;
+    case MODE_PRESENT:
+      presentMode();
+      break;
+  }
+}
+

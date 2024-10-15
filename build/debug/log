@@ -1,0 +1,460 @@
+Device 5688: AMD Radeon Graphics (RADV RENOIR)   type: 1
+	Direct Compute Draw? YES
+Device 0: llvmpipe (LLVM 18.1.6, 256 bits)   type: 4
+	Direct Compute Draw? YES
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd1000002bdd1. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd1000002bdd1, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd1000002bdd1. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd1000002bdd1, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd1000002bdd1, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd1000002bdd1. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd1000002bdd1, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd2000002bdd2. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd2000002bdd2, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd2000002bdd2. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd2000002bdd2, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd2000002bdd2, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd2000002bdd2. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd2000002bdd2, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcf000002bdcf. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcf000002bdcf, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcf000002bdcf. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcf000002bdcf, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcf000002bdcf, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcf000002bdcf. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcf000002bdcf, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd0000002bdd0. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd0000002bdd0, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd0000002bdd0. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd0000002bdd0, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd0000002bdd0, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd0000002bdd0. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd0000002bdd0, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcd000002bdcd. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcd000002bdcd, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcd000002bdcd. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcd000002bdcd, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcd000002bdcd, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcd000002bdcd. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcd000002bdcd, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdce000002bdce. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdce000002bdce, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdce000002bdce. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdce000002bdce, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdce000002bdce, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdce000002bdce. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdce000002bdce, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcb000002bdcb. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcb000002bdcb, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcb000002bdcb. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcb000002bdcb, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcb000002bdcb, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcb000002bdcb. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcb000002bdcb, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcc000002bdcc. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcc000002bdcc, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcc000002bdcc. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcc000002bdcc, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcc000002bdcc, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcc000002bdcc. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcc000002bdcc, type: 14, name: NULL
+VUID-vkDestroySwapchainKHR-swapchain-parameter(ERROR / SPEC): msgNum: 1891088827 - Validation Error: [ VUID-vkDestroySwapchainKHR-swapchain-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0x70b7b9bb | vkDestroySwapchainKHR(): swapchain Invalid VkSwapchainKHR Object 0x2bdbe000002bdbe. The Vulkan spec states: If swapchain is not VK_NULL_HANDLE, swapchain must be a valid VkSwapchainKHR handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroySwapchainKHR-swapchain-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdbe000002bdbe, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x5d6b67e2 | vkDestroySwapchainKHR():  Couldn't find VkSwapchainKHR Object 0x2bdbe000002bdbe. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdbe000002bdbe, type: 1000001000, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdbe000002bdbe, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x5d6b67e2 | vkDestroySwapchainKHR():  Couldn't find VkSwapchainKHR Object 0x2bdbe000002bdbe. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdbe000002bdbe, type: 1000001000, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd1000002bdd1. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd1000002bdd1, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd1000002bdd1. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd1000002bdd1, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd1000002bdd1, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd1000002bdd1. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd1000002bdd1, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd2000002bdd2. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd2000002bdd2, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd2000002bdd2. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd2000002bdd2, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd2000002bdd2, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd2000002bdd2. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd2000002bdd2, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcf000002bdcf. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcf000002bdcf, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcf000002bdcf. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcf000002bdcf, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcf000002bdcf, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcf000002bdcf. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcf000002bdcf, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd0000002bdd0. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd0000002bdd0, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd0000002bdd0. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd0000002bdd0, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd0000002bdd0, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd0000002bdd0. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd0000002bdd0, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcd000002bdcd. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcd000002bdcd, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcd000002bdcd. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcd000002bdcd, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcd000002bdcd, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcd000002bdcd. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcd000002bdcd, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdce000002bdce. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdce000002bdce, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdce000002bdce. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdce000002bdce, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdce000002bdce, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdce000002bdce. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdce000002bdce, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcb000002bdcb. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcb000002bdcb, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcb000002bdcb. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcb000002bdcb, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcb000002bdcb, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcb000002bdcb. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcb000002bdcb, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcc000002bdcc. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcc000002bdcc, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcc000002bdcc. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcc000002bdcc, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcc000002bdcc, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcc000002bdcc. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcc000002bdcc, type: 14, name: NULL
+VUID-vkDestroySwapchainKHR-swapchain-parameter(ERROR / SPEC): msgNum: 1891088827 - Validation Error: [ VUID-vkDestroySwapchainKHR-swapchain-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0x70b7b9bb | vkDestroySwapchainKHR(): swapchain Invalid VkSwapchainKHR Object 0x2bdbe000002bdbe. The Vulkan spec states: If swapchain is not VK_NULL_HANDLE, swapchain must be a valid VkSwapchainKHR handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroySwapchainKHR-swapchain-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdbe000002bdbe, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x5d6b67e2 | vkDestroySwapchainKHR():  Couldn't find VkSwapchainKHR Object 0x2bdbe000002bdbe. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdbe000002bdbe, type: 1000001000, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdbe000002bdbe, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x5d6b67e2 | vkDestroySwapchainKHR():  Couldn't find VkSwapchainKHR Object 0x2bdbe000002bdbe. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdbe000002bdbe, type: 1000001000, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd1000002bdd1. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd1000002bdd1, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd1000002bdd1. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd1000002bdd1, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd1000002bdd1, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd1000002bdd1. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd1000002bdd1, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd2000002bdd2. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd2000002bdd2, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd2000002bdd2. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd2000002bdd2, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd2000002bdd2, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd2000002bdd2. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd2000002bdd2, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcf000002bdcf. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcf000002bdcf, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcf000002bdcf. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcf000002bdcf, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcf000002bdcf, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcf000002bdcf. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcf000002bdcf, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd0000002bdd0. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd0000002bdd0, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd0000002bdd0. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd0000002bdd0, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd0000002bdd0, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd0000002bdd0. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd0000002bdd0, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcd000002bdcd. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcd000002bdcd, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcd000002bdcd. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcd000002bdcd, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcd000002bdcd, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcd000002bdcd. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcd000002bdcd, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdce000002bdce. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdce000002bdce, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdce000002bdce. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdce000002bdce, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdce000002bdce, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdce000002bdce. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdce000002bdce, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcb000002bdcb. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcb000002bdcb, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcb000002bdcb. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcb000002bdcb, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcb000002bdcb, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcb000002bdcb. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcb000002bdcb, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcc000002bdcc. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcc000002bdcc, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcc000002bdcc. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcc000002bdcc, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcc000002bdcc, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcc000002bdcc. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcc000002bdcc, type: 14, name: NULL
+VUID-vkDestroySwapchainKHR-swapchain-parameter(ERROR / SPEC): msgNum: 1891088827 - Validation Error: [ VUID-vkDestroySwapchainKHR-swapchain-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0x70b7b9bb | vkDestroySwapchainKHR(): swapchain Invalid VkSwapchainKHR Object 0x2bdbe000002bdbe. The Vulkan spec states: If swapchain is not VK_NULL_HANDLE, swapchain must be a valid VkSwapchainKHR handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroySwapchainKHR-swapchain-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdbe000002bdbe, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x5d6b67e2 | vkDestroySwapchainKHR():  Couldn't find VkSwapchainKHR Object 0x2bdbe000002bdbe. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdbe000002bdbe, type: 1000001000, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdbe000002bdbe, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x5d6b67e2 | vkDestroySwapchainKHR():  Couldn't find VkSwapchainKHR Object 0x2bdbe000002bdbe. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdbe000002bdbe, type: 1000001000, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd1000002bdd1. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd1000002bdd1, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd1000002bdd1. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd1000002bdd1, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd1000002bdd1, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd1000002bdd1. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd1000002bdd1, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd2000002bdd2. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd2000002bdd2, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd2000002bdd2. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd2000002bdd2, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd2000002bdd2, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd2000002bdd2. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd2000002bdd2, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcf000002bdcf. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcf000002bdcf, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcf000002bdcf. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcf000002bdcf, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcf000002bdcf, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcf000002bdcf. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcf000002bdcf, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd0000002bdd0. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd0000002bdd0, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd0000002bdd0. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd0000002bdd0, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd0000002bdd0, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd0000002bdd0. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd0000002bdd0, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcd000002bdcd. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcd000002bdcd, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcd000002bdcd. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcd000002bdcd, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcd000002bdcd, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcd000002bdcd. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcd000002bdcd, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdce000002bdce. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdce000002bdce, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdce000002bdce. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdce000002bdce, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdce000002bdce, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdce000002bdce. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdce000002bdce, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcb000002bdcb. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcb000002bdcb, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcb000002bdcb. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcb000002bdcb, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcb000002bdcb, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcb000002bdcb. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcb000002bdcb, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcc000002bdcc. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcc000002bdcc, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcc000002bdcc. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcc000002bdcc, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcc000002bdcc, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcc000002bdcc. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcc000002bdcc, type: 14, name: NULL
+VUID-vkDestroySwapchainKHR-swapchain-parameter(ERROR / SPEC): msgNum: 1891088827 - Validation Error: [ VUID-vkDestroySwapchainKHR-swapchain-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0x70b7b9bb | vkDestroySwapchainKHR(): swapchain Invalid VkSwapchainKHR Object 0x2bdbe000002bdbe. The Vulkan spec states: If swapchain is not VK_NULL_HANDLE, swapchain must be a valid VkSwapchainKHR handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroySwapchainKHR-swapchain-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdbe000002bdbe, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x5d6b67e2 | vkDestroySwapchainKHR():  Couldn't find VkSwapchainKHR Object 0x2bdbe000002bdbe. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdbe000002bdbe, type: 1000001000, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdbe000002bdbe, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x5d6b67e2 | vkDestroySwapchainKHR():  Couldn't find VkSwapchainKHR Object 0x2bdbe000002bdbe. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdbe000002bdbe, type: 1000001000, name: NULL
+VUID-vkDestroyShaderModule-shaderModule-parameter(ERROR / SPEC): msgNum: 311602593 - Validation Error: [ VUID-vkDestroyShaderModule-shaderModule-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0x1292ada1 | vkDestroyShaderModule(): shaderModule Invalid VkShaderModule Object 0x7f439660339f. The Vulkan spec states: If shaderModule is not VK_NULL_HANDLE, shaderModule must be a valid VkShaderModule handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyShaderModule-shaderModule-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x7f439660339f, type = VK_OBJECT_TYPE_SHADER_MODULE; | MessageID = 0x5d6b67e2 | vkDestroyShaderModule():  Couldn't find VkShaderModule Object 0x7f439660339f. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x7f439660339f, type: 15, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x7f439660339f, type = VK_OBJECT_TYPE_SHADER_MODULE; | MessageID = 0x5d6b67e2 | vkDestroyShaderModule():  Couldn't find VkShaderModule Object 0x7f439660339f. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x7f439660339f, type: 15, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd1000002bdd1. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd1000002bdd1, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd1000002bdd1. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd1000002bdd1, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd1000002bdd1, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd1000002bdd1. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd1000002bdd1, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd2000002bdd2. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd2000002bdd2, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd2000002bdd2. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd2000002bdd2, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd2000002bdd2, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd2000002bdd2. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd2000002bdd2, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcf000002bdcf. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcf000002bdcf, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcf000002bdcf. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcf000002bdcf, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcf000002bdcf, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcf000002bdcf. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcf000002bdcf, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdd0000002bdd0. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd0000002bdd0, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd0000002bdd0. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd0000002bdd0, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdd0000002bdd0, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdd0000002bdd0. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdd0000002bdd0, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcd000002bdcd. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcd000002bdcd, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcd000002bdcd. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcd000002bdcd, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcd000002bdcd, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcd000002bdcd. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcd000002bdcd, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdce000002bdce. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdce000002bdce, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdce000002bdce. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdce000002bdce, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdce000002bdce, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdce000002bdce. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdce000002bdce, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcb000002bdcb. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcb000002bdcb, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcb000002bdcb. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcb000002bdcb, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcb000002bdcb, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcb000002bdcb. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcb000002bdcb, type: 14, name: NULL
+VUID-vkDestroyImageView-imageView-parameter(ERROR / SPEC): msgNum: -534740842 - Validation Error: [ VUID-vkDestroyImageView-imageView-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0xe0208096 | vkDestroyImageView(): imageView Invalid VkImageView Object 0x2bdcc000002bdcc. The Vulkan spec states: If imageView is not VK_NULL_HANDLE, imageView must be a valid VkImageView handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyImageView-imageView-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcc000002bdcc, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcc000002bdcc. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcc000002bdcc, type: 14, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdcc000002bdcc, type = VK_OBJECT_TYPE_IMAGE_VIEW; | MessageID = 0x5d6b67e2 | vkDestroyImageView():  Couldn't find VkImageView Object 0x2bdcc000002bdcc. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdcc000002bdcc, type: 14, name: NULL
+VUID-vkDestroySwapchainKHR-swapchain-parameter(ERROR / SPEC): msgNum: 1891088827 - Validation Error: [ VUID-vkDestroySwapchainKHR-swapchain-parameter ] Object 0: handle = 0x38cd0450, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0x70b7b9bb | vkDestroySwapchainKHR(): swapchain Invalid VkSwapchainKHR Object 0x2bdbe000002bdbe. The Vulkan spec states: If swapchain is not VK_NULL_HANDLE, swapchain must be a valid VkSwapchainKHR handle (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroySwapchainKHR-swapchain-parameter)
+    Objects: 1
+        [0] 0x38cd0450, type: 1, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdbe000002bdbe, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x5d6b67e2 | vkDestroySwapchainKHR():  Couldn't find VkSwapchainKHR Object 0x2bdbe000002bdbe. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdbe000002bdbe, type: 1000001000, name: NULL
+UNASSIGNED-Threading-Info(ERROR / SPEC): msgNum: 1567320034 - Validation Error: [ UNASSIGNED-Threading-Info ] Object 0: handle = 0x2bdbe000002bdbe, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x5d6b67e2 | vkDestroySwapchainKHR():  Couldn't find VkSwapchainKHR Object 0x2bdbe000002bdbe. This should not happen and may indicate a bug in the application.
+    Objects: 1
+        [0] 0x2bdbe000002bdbe, type: 1000001000, name: NULL
+VUID-vkDestroyDevice-device-05137(ERROR / SPEC): msgNum: 1215490720 - Validation Error: [ VUID-vkDestroyDevice-device-05137 ] Object 0: handle = 0x2bdc5000002bdc5, type = VK_OBJECT_TYPE_IMAGE; | MessageID = 0x4872eaa0 | vkDestroyDevice():  OBJ ERROR : For VkDevice 0x38e6dbd0[], VkImage 0x2bdc5000002bdc5[] has not been destroyed. The Vulkan spec states: All child objects created on device must have been destroyed prior to destroying device (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyDevice-device-05137)
+    Objects: 1
+        [0] 0x2bdc5000002bdc5, type: 10, name: NULL
+VUID-vkDestroyDevice-device-05137(ERROR / SPEC): msgNum: 1215490720 - Validation Error: [ VUID-vkDestroyDevice-device-05137 ] Object 0: handle = 0x2bdc3000002bdc3, type = VK_OBJECT_TYPE_IMAGE; | MessageID = 0x4872eaa0 | vkDestroyDevice():  OBJ ERROR : For VkDevice 0x38e6dbd0[], VkImage 0x2bdc3000002bdc3[] has not been destroyed. The Vulkan spec states: All child objects created on device must have been destroyed prior to destroying device (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyDevice-device-05137)
+    Objects: 1
+        [0] 0x2bdc3000002bdc3, type: 10, name: NULL
+VUID-vkDestroyDevice-device-05137(ERROR / SPEC): msgNum: 1215490720 - Validation Error: [ VUID-vkDestroyDevice-device-05137 ] Object 0: handle = 0x2bdc9000002bdc9, type = VK_OBJECT_TYPE_IMAGE; | MessageID = 0x4872eaa0 | vkDestroyDevice():  OBJ ERROR : For VkDevice 0x38e6dbd0[], VkImage 0x2bdc9000002bdc9[] has not been destroyed. The Vulkan spec states: All child objects created on device must have been destroyed prior to destroying device (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyDevice-device-05137)
+    Objects: 1
+        [0] 0x2bdc9000002bdc9, type: 10, name: NULL
+VUID-vkDestroyDevice-device-05137(ERROR / SPEC): msgNum: 1215490720 - Validation Error: [ VUID-vkDestroyDevice-device-05137 ] Object 0: handle = 0x2bdc7000002bdc7, type = VK_OBJECT_TYPE_IMAGE; | MessageID = 0x4872eaa0 | vkDestroyDevice():  OBJ ERROR : For VkDevice 0x38e6dbd0[], VkImage 0x2bdc7000002bdc7[] has not been destroyed. The Vulkan spec states: All child objects created on device must have been destroyed prior to destroying device (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyDevice-device-05137)
+    Objects: 1
+        [0] 0x2bdc7000002bdc7, type: 10, name: NULL
+VUID-vkDestroyDevice-device-05137(ERROR / SPEC): msgNum: 1215490720 - Validation Error: [ VUID-vkDestroyDevice-device-05137 ] Object 0: handle = 0x2bdc6000002bdc6, type = VK_OBJECT_TYPE_DEVICE_MEMORY; | MessageID = 0x4872eaa0 | vkDestroyDevice():  OBJ ERROR : For VkDevice 0x38e6dbd0[], VkDeviceMemory 0x2bdc6000002bdc6[] has not been destroyed. The Vulkan spec states: All child objects created on device must have been destroyed prior to destroying device (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyDevice-device-05137)
+    Objects: 1
+        [0] 0x2bdc6000002bdc6, type: 8, name: NULL
+VUID-vkDestroyDevice-device-05137(ERROR / SPEC): msgNum: 1215490720 - Validation Error: [ VUID-vkDestroyDevice-device-05137 ] Object 0: handle = 0x2bdc4000002bdc4, type = VK_OBJECT_TYPE_DEVICE_MEMORY; | MessageID = 0x4872eaa0 | vkDestroyDevice():  OBJ ERROR : For VkDevice 0x38e6dbd0[], VkDeviceMemory 0x2bdc4000002bdc4[] has not been destroyed. The Vulkan spec states: All child objects created on device must have been destroyed prior to destroying device (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyDevice-device-05137)
+    Objects: 1
+        [0] 0x2bdc4000002bdc4, type: 8, name: NULL
+VUID-vkDestroyDevice-device-05137(ERROR / SPEC): msgNum: 1215490720 - Validation Error: [ VUID-vkDestroyDevice-device-05137 ] Object 0: handle = 0x2bdc8000002bdc8, type = VK_OBJECT_TYPE_DEVICE_MEMORY; | MessageID = 0x4872eaa0 | vkDestroyDevice():  OBJ ERROR : For VkDevice 0x38e6dbd0[], VkDeviceMemory 0x2bdc8000002bdc8[] has not been destroyed. The Vulkan spec states: All child objects created on device must have been destroyed prior to destroying device (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyDevice-device-05137)
+    Objects: 1
+        [0] 0x2bdc8000002bdc8, type: 8, name: NULL
+VUID-vkDestroyDevice-device-05137(ERROR / SPEC): msgNum: 1215490720 - Validation Error: [ VUID-vkDestroyDevice-device-05137 ] Object 0: handle = 0x2bdca000002bdca, type = VK_OBJECT_TYPE_DEVICE_MEMORY; | MessageID = 0x4872eaa0 | vkDestroyDevice():  OBJ ERROR : For VkDevice 0x38e6dbd0[], VkDeviceMemory 0x2bdca000002bdca[] has not been destroyed. The Vulkan spec states: All child objects created on device must have been destroyed prior to destroying device (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyDevice-device-05137)
+    Objects: 1
+        [0] 0x2bdca000002bdca, type: 8, name: NULL
+VUID-vkDestroyDevice-device-05137(ERROR / SPEC): msgNum: 1215490720 - Validation Error: [ VUID-vkDestroyDevice-device-05137 ] Object 0: handle = 0x2b000000002b, type = VK_OBJECT_TYPE_SHADER_MODULE; | MessageID = 0x4872eaa0 | vkDestroyDevice():  OBJ ERROR : For VkDevice 0x38e6dbd0[], VkShaderModule 0x2b000000002b[] has not been destroyed. The Vulkan spec states: All child objects created on device must have been destroyed prior to destroying device (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyDevice-device-05137)
+    Objects: 1
+        [0] 0x2b000000002b, type: 15, name: NULL
+VUID-vkDestroyDevice-device-05137(ERROR / SPEC): msgNum: 1215490720 - Validation Error: [ VUID-vkDestroyDevice-device-05137 ] Object 0: handle = 0x1b969000001b969, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x4872eaa0 | vkDestroyDevice():  OBJ ERROR : For VkDevice 0x38e6dbd0[], VkSwapchainKHR 0x1b969000001b969[] has not been destroyed. The Vulkan spec states: All child objects created on device must have been destroyed prior to destroying device (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyDevice-device-05137)
+    Objects: 1
+        [0] 0x1b969000001b969, type: 1000001000, name: NULL
+VUID-vkDestroyDevice-device-05137(ERROR / SPEC): msgNum: 1215490720 - Validation Error: [ VUID-vkDestroyDevice-device-05137 ] Object 0: handle = 0x2bda1000002bda1, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x4872eaa0 | vkDestroyDevice():  OBJ ERROR : For VkDevice 0x38e6dbd0[], VkSwapchainKHR 0x2bda1000002bda1[] has not been destroyed. The Vulkan spec states: All child objects created on device must have been destroyed prior to destroying device (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyDevice-device-05137)
+    Objects: 1
+        [0] 0x2bda1000002bda1, type: 1000001000, name: NULL
+VUID-vkDestroyDevice-device-05137(ERROR / SPEC): msgNum: 1215490720 - Validation Error: [ VUID-vkDestroyDevice-device-05137 ] Object 0: handle = 0x1b92f000001b92f, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x4872eaa0 | vkDestroyDevice():  OBJ ERROR : For VkDevice 0x38e6dbd0[], VkSwapchainKHR 0x1b92f000001b92f[] has not been destroyed. The Vulkan spec states: All child objects created on device must have been destroyed prior to destroying device (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyDevice-device-05137)
+    Objects: 1
+        [0] 0x1b92f000001b92f, type: 1000001000, name: NULL
+VUID-vkDestroyDevice-device-05137(ERROR / SPEC): msgNum: 1215490720 - Validation Error: [ VUID-vkDestroyDevice-device-05137 ] Object 0: handle = 0xa000000000a, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x4872eaa0 | vkDestroyDevice():  OBJ ERROR : For VkDevice 0x38e6dbd0[], VkSwapchainKHR 0xa000000000a[] has not been destroyed. The Vulkan spec states: All child objects created on device must have been destroyed prior to destroying device (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyDevice-device-05137)
+    Objects: 1
+        [0] 0xa000000000a, type: 1000001000, name: NULL
+VUID-vkDestroyDevice-device-05137(ERROR / SPEC): msgNum: 1215490720 - Validation Error: [ VUID-vkDestroyDevice-device-05137 ] Object 0: handle = 0x1b94c000001b94c, type = VK_OBJECT_TYPE_SWAPCHAIN_KHR; | MessageID = 0x4872eaa0 | vkDestroyDevice():  OBJ ERROR : For VkDevice 0x38e6dbd0[], VkSwapchainKHR 0x1b94c000001b94c[] has not been destroyed. The Vulkan spec states: All child objects created on device must have been destroyed prior to destroying device (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkDestroyDevice-device-05137)
+    Objects: 1
+        [0] 0x1b94c000001b94c, type: 1000001000, name: NULL
