@@ -3,7 +3,7 @@ LDFLAGS = -lglfw -lvulkan
 all: neurons
 
 neurons: clean validateCompute
-	g++ $(CFLAGS) -o build/main/neurons $(LDFLAGS) main.cpp
+	g++ $(CFLAGS) -o build/main/neurons $(LDFLAGS) main.cpp LTCN.cpp
 
 .PHONY: clean debug validateCompute
 

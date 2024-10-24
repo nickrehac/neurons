@@ -20,6 +20,8 @@
 #include <functional>
 #include <deque>
 
+#include "LTCN.h"
+
 class NeuronApplication {
   struct ComputePushConstants {
     float dTime;
