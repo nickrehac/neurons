@@ -37,6 +37,11 @@ namespace LTCN {
             VkInstance instance = VK_NULL_HANDLE;
             VkPhysicalDevice physicalDevice = VK_NULL_HANDLE;
             VkDevice device = VK_NULL_HANDLE;
+            uint32_t computeFamilyIndex = 0;
+            VkQueue computeQueue = VK_NULL_HANDLE;
+            VkCommandPool commandPool = VK_NULL_HANDLE;
+            VkCommandBuffer commandBuffer = VK_NULL_HANDLE;
+
 
         public:
             Instance();
@@ -59,17 +64,17 @@ namespace LTCN {
         Rect(int width, int height);
     };
     enum class LayerType {
-        Linear,
-        Convolution,
-        ManualBinding,
-        FullyConnected,
+        Linear = 0,
+        FullyConnected = 1,
+        Convolution = 2,
     };
     class NetworkTensor {
         unsigned int id;
         std::vector<size_t> dimensions;
         VU::Buffer * buffer;
+        bool visited = false;
     public:
-        NetworkTensor(VkInstance instance, unsigned int id, std::vector<size_t> shape);
+        NetworkTensor(VU::Instance * instance, unsigned int id, std::vector<size_t> shape);
         ~NetworkTensor();
     };
     class Layer {
@@ -80,10 +85,14 @@ namespace LTCN {
         NetworkTensor * output;
         Bounds outputWindow;
         VU::Buffer * weights;
-        Bounds convolutionSize;
+        Bounds convolutionInWindow;
+        Bounds convolutionOutWindow;
 
     public:
-        Layer(VU::Instance * instance, Bounds inWin, Bounds outWin);
+        Layer(VU::Instance * instance, Bounds inWin, Bounds outWin, LayerType type);
+
+        void bindBuffers();
+        void writeCommands();
     };
     class LTCN {
         //TODO: import/export to file
@@ -103,7 +112,6 @@ namespace LTCN {
         ~LTCN();
 
         void addTensor(unsigned int id, std::vector<size_t> shape);
-        void addLayer(unsigned int id, unsigned int from, unsigned int to);
         void addLayer(unsigned int id, unsigned int from, unsigned int to, LayerType type);
 
         void * evaluate(void * input, float timestep);

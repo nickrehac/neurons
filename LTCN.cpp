@@ -7,6 +7,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <ostream>
+#include <queue>
 #include <vulkan/vulkan.h>
 
 namespace LTCN {
@@ -16,8 +17,21 @@ namespace LTCN {
     }
 
 
-    Layer::Layer(VU::Instance instance, Bounds inWin, Bounds outWin) : inputWindow(inputWindow), outputWindow(outputWindow) {
-        weights = new VU::Buffer(0, 0, 0);
+    Layer::Layer(VU::Instance * instance, Bounds inWin, Bounds outWin, LayerType type) : inputWindow(inputWindow), outputWindow(outputWindow), type(type) {
+        size_t size = 0;
+
+        if(type == LayerType::FullyConnected) {
+            size_t inNeurons, outNeurons = 1;
+            for(std::pair<size_t, size_t> bound : inWin) {
+                inNeurons *= bound.second - bound.first;
+            }
+            for(std::pair<size_t, size_t> bound : outWin) {
+                outNeurons *= bound.second - bound.first;
+            }
+            size = inNeurons * outNeurons;
+        }
+
+        weights = new VU::Buffer(instance, size);
     }
 
     LTCN::~LTCN() {
@@ -34,8 +48,12 @@ namespace LTCN {
 
     Rect::Rect(int width, int height) : x(0), y(0), width(width), height(height) {}
 
-    NetworkTensor::NetworkTensor(VkInstance instance, unsigned int id, std::vector<size_t> shape) {
-        buffer = new VU::Buffer(in);
+    NetworkTensor::NetworkTensor(VU::Instance * instance, unsigned int id, std::vector<size_t> shape) {
+        size_t size = 0;
+        for(size_t dimension : shape) {
+            size += dimension * sizeof(float);
+        }
+        buffer = new VU::Buffer(instance, size);
     }
 
     NetworkTensor::~NetworkTensor() {
@@ -163,9 +181,72 @@ namespace LTCN {
                 std::cerr << "Failed to create instance" << std::endl;
                 exit(0);
             }
+
+
+            uint32_t physicalDeviceCount = 0;
+            vkEnumeratePhysicalDevices(instance, &physicalDeviceCount, nullptr);
+            VkPhysicalDevice * physicalDevices = new VkPhysicalDevice[physicalDeviceCount];
+            vkEnumeratePhysicalDevices(instance, &physicalDeviceCount, physicalDevices);
+            for(int i = 0; i < physicalDeviceCount; i++) {
+                VkPhysicalDeviceProperties properties;
+                vkGetPhysicalDeviceProperties(physicalDevices[i], &properties);
+
+                if(properties.deviceType == VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU) {
+                    physicalDevice = physicalDevices[i];
+                    break;
+                }
+            }
+            delete[] physicalDevices;
+
+            uint32_t queueFamilyCount = 0;
+            vkGetPhysicalDeviceQueueFamilyProperties(physicalDevice, &queueFamilyCount, nullptr);
+            VkQueueFamilyProperties * queueFamilies = new VkQueueFamilyProperties[queueFamilyCount];
+            vkGetPhysicalDeviceQueueFamilyProperties(physicalDevice, &queueFamilyCount, queueFamilies);
+            for(int i = 0; i < queueFamilyCount; i++) {
+                if(queueFamilies[i].queueFlags & VK_QUEUE_COMPUTE_BIT & VK_QUEUE_TRANSFER_BIT) {
+                    computeFamilyIndex = i;
+                    break;
+                }
+            }
+            delete[] queueFamilies;
+
+            float priority = 1.0f;
+
+            VkDeviceQueueCreateInfo computeQueueCreateInfo = {
+                .sType = VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO,
+                .queueFamilyIndex = computeFamilyIndex,
+                .queueCount = 1,
+                .pQueuePriorities = &priority,
+            };
+
+            VkDeviceCreateInfo deviceCreateInfo = {
+                .sType = VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO,
+                .queueCreateInfoCount = 1,
+                .pQueueCreateInfos = &computeQueueCreateInfo,
+            };
+            vkCreateDevice(physicalDevice, &deviceCreateInfo, nullptr, &device);
+            vkGetDeviceQueue(device, computeFamilyIndex, 0, &computeQueue);
+
+            VkCommandPoolCreateInfo commandPoolCreateInfo = {
+                .sType = VK_STRUCTURE_TYPE_COMMAND_POOL_CREATE_INFO,
+                .flags = VK_COMMAND_POOL_CREATE_RESET_COMMAND_BUFFER_BIT,
+                .queueFamilyIndex = computeFamilyIndex,
+            };
+            vkCreateCommandPool(device, &commandPoolCreateInfo, nullptr, &commandPool);
+
+            VkCommandBufferAllocateInfo commandBufferAllocateInfo = {
+                .sType = VK_STRUCTURE_TYPE_COMMAND_BUFFER_ALLOCATE_INFO,
+                .level = VK_COMMAND_BUFFER_LEVEL_PRIMARY,
+                .commandPool = commandPool,
+                .commandBufferCount = 1,
+            };
+            vkAllocateCommandBuffers(device, &commandBufferAllocateInfo, &commandBuffer);
         }
 
         Instance::~Instance() {
+            vkFreeCommandBuffers(device, commandPool, 1, &commandBuffer);
+            vkDestroyCommandPool(device, commandPool, nullptr);
+            vkDestroyDevice(device, nullptr);
             vkDestroyInstance(instance, nullptr);
         }
 

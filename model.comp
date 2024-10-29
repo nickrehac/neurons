@@ -1,0 +1,44 @@
+#version 450
+
+const uint MODE_RUN = 0;
+const uint MODE_TEST = 1;
+const uint MODE_TRAIN = 2;
+
+const uint TYPE_LINEAR = 0;
+const uint TYPE_FULLY_CONNECTED = 1;
+const uint TYPE_CONVOLUTION = 2;
+
+layout(push_constant) uniform parameters {
+    uint mode;
+    uint type;
+    uint inputSize;
+    uint outputSize;
+    float dTime;
+};
+
+layout(std430, binding=1) buffer readonly inputBuffer {
+    float inputs[];
+};
+
+layout(std430, binding=2) buffer weightBuffer {
+    float weights[];
+};
+
+layout(std430, binding=3) buffer outputBuffer {
+    float outputs[];
+};
+
+
+layout(local_size_x=32, local_size_y=32, local_size_z=1) in;
+void main() {
+    if(mode == MODE_RUN) {
+        if(type == TYPE_CONVOLUTION) runConvolution();
+    }
+}
+
+void runConvolution() {
+    uint index =
+        gl_GlobalInvocationID.z * gl_NumWorkGroups.x * gl_NumWorkGroups.y +
+        gl_GlobalInvocationID.y * gl_NumWorkGroups.x +
+        gl_GlobalInvocationID.x;
+}
